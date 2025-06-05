@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device, initial=scale=1.0">
@@ -8,63 +9,141 @@
     <meta name="author" content="Sungjoong Ahn">
     <title>ex2</title>
     <link rel="stylesheet" href="styles.css">
+
 <style>
-h1 {
-    color: blue:aliceblue;
-    font-family: verdana;
-    font-size: 300%;
-    }
-h2 {
-    color: blue
-    }
-h3 {
-    color: red
-    }
-h4 {
-    color: yellow
-    }
-h5 {
-    color: purple
-    }
 p {
-    color: blueviolet;
+    color: black;
     font-family: Courier;
     font-size: 160%;
-    border: 2px solid black;
-    padding: 30 px;
-    margin: 50px;
 }
 </style>
+
 </head>
 <body style="background-color: powderblue;">
-    <img src="img/Sundown_060225.jpg" alt="Sundown of My Backyard"> 
-    <h1>First Headline</h1>
-    <h2>Second Headline</h2>
-    <h3>Third Headline</h3>
-    <h4>Fourth Headline</h4>
-    <h5>Fifth Headline</h5>
-    <h6>Sixth Headline</h6>
-    <p>This is my paragraph text. <br>This is my paragraph text. <br>This is my paragraph text.</p>
-<dl>
-    <dt>Synonym</dt>
-    <dd> A word whose meaning is the same as that of another word.</dd>
-    <dt>Antonym</dt>
-    <dd>A word which has the opposite meaning of another word.</dd>
-</dl>
+    <img src="img/W3 Schools.png" alt="W3 School" width="300" height="200">
+    
+    <h1 style="color: black; font-family: verdana; font-size: 300%;"><center>Learning Web Development</center></h1>
+    <hr style="color: red">
+    
+    <br>
+    <h2 style="color: blue">I. HTML Hyperlink</h2>
+        <p>
+        Visit<a href="https://www.w3schools.com/html/html_examples.asp"> HTML Examples</a> for more information
+        </p>
+    
+    <br>
+    <h2 style="color: blue">II. HTML Paragraphs</h2>
+        <p style="border: 2px solid black; padding: 30 px; margin: 50px;">This is my paragraph text. <br>This is my paragraph text. <br>This is my paragraph text.</p>
+    
+    <br>
+    <h2 style="color: blue">III. HTML Tables</h2>
+    <h3 style="color: purple">1. A Basic Table</h3>
+        <table>
+            <tr>
+                <td>Joseph</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Paul</td>
+                <td>25</td>
+            </tr>
+        </table>
+    <h3 style="color: purple">2. A Table with a Title, Border, and Headings</h3>
+        <table border="5">
+            <tr>
+                <th colspan="2">
+                    <h3>Student Profile</h3>
+                </th>
+            </tr>
+            <th>Name</th>
+            <th>Age</th>
+            <tr>
+                <td>Joseph</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Paul</td>
+                <td>25</td>
+            </tr>
+        </table>
+    <h3 style="color: purple">3. HTML Layout Using Tables</h3>
+        <table width="100%" border="0">
+        <tr>
+            <td colspan="2" bgcolor="#b5dcb3">
+                <h3>This is Sample Web Page</h3>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td bgcolor="#aaa" width="50">
+                <b>Main Menu</b><br />
+                HTML<br />
+                JavaScript<br />
+                CSS<br />
+            </td>
+            <td bgcolor="#eee" width="100" height="200">Web Design and Development</td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="#b5dcb3"><center>Copyright © 2025</center></td>
+        </tr>
+        </table>
+    
+    <br>
+    <h2 style="color: blue">IV. HTML Forms: Login Form</h2>
+        <form>
+            <label>Username: <input type="text"></label>
+            <label>Password: <input type="pass-word"</label>
+            <input type="submit" value="Submit"
+        </form>
+    
+    <br>
+    <br>
+    <br>
+    <h2 style="color: blue">V. HTML Lists</h2>
+    <h3 style="color: purple">1. Description Lists</h3>
+    <dl>
+        <dt>Synonym</dt>
+        <dd> A word whose meaning is the same as that of another word.</dd>
+        <dt>Antonym</dt>
+        <dd>A word which has the opposite meaning of another word.</dd>
+    </dl>
+    
+    <h3 style="color:purple">2. Ordered Lists</h3>
     <ol>
-    <li>Strawberries</li>
-    <li>Oranges</li>
-    <li>Grapes</li>
- </ol>
-<ol start="7">
-    <li>Raspberries</li>
-    <li>cherries</li>
-    <li>plums</li>
-</ol>
-<ul>
-    <li>Sungjoong Ahn</li>
-    <li>My Address</li>
-    <li>(202) xxxx-xxxx</li>
-</ul>
+        <li>Strawberries</li>
+        <li>Oranges</li>
+        <li>Grapes</li>
+    </ol>
+    
+    <h3 style="color: purple">3. Ordered Lists with the Start Attribute</h3>
+    <ol start="7">
+        <li>Raspberries</li>
+        <li>cherries</li>
+        <li>plums</li>
+    </ol>
+
+    <h3 style="color:purple">4. Unordered Lists</h3>
+    <ul>
+        <li>Sungjoong Ahn</li>
+        <li>My Address</li>
+        <li>(202) xxxx-xxxx</li>
+    </ul>
+
+    <br>
+    <h2 style="color: blue">VI. HTML and CSS Style</h2>
+       <div class="shadowbox">
+            <p>Here is a very interesting note displayed in a lovely shadowed box. <lang="korean"><br>참 재미있습니다! 열심히 배우겠습니다. 많이 가르쳐주십시오.</lang></p>
+        </div>
+        <Style>
+            .shadowbox {background-color: rgb(225, 230, 176); width: 25em; border: 1px solid #333; box-shadow: 8px 8px 5px #444; padding: 8px 12px; backgroud-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);}
+        </Style>
 </body>
+
 </html>
